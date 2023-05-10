@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Final Project</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="aside">
+        <div class="div-container-exclude-light-mode">
+          <div class="camel-logo">
+            <img src="./assests/images/Iconly/Bulk/logo.svg" alt="logo" />
+          </div>
+          <div class="main-menu-wrapper">
+            <div class="para">
+              <span>MAIN MENU</span>
+            </div>
+            <div class="dashboard-wrapper">
+              <img
+                src="./assests/images/Iconly/Bulk/Category.svg"
+                alt="dashboard"
+              />
+              <a href="#"><span>Dashboard</span></a>
+            </div>
+            <div class="messages-wrapper">
+              <div class="div-message-wrapper">
+                <img src="./assests/images/Message.svg" alt="message" />
+                <a href="#"><p>Messages</p></a>
+              </div>
+              <span>3 new</span>
+            </div>
+            <div class="reports-wrapper">
+              <img src="./assests/images/Iconly/Bulk/Paper.svg" alt="report" />
+              <a href="#"><span>Reports</span></a>
+            </div>
+            <div class="Notifications-wrapper">
+              <img
+                src="./assests/images/Iconly/Bulk/Notification.svg"
+                alt="notifications"
+              />
+              <a href="#"><span>Notifications</span></a>
+            </div>
+            <div class="invoices-wrapper">
+              <div class="div-invoice-wrapper">
+                <img
+                  src="./assests/images/Iconly/Bulk/Wallet.svg"
+                  alt="messages"
+                />
+                <a href="#"><p>Invoices</p></a>
+              </div>
+              <span>10+</span>
+            </div>
+          </div>
+
+          <div class="work-wrapper">
+            <p>WORKS</p>
+            <div class="Bookmarks-wrapper">
+              <img
+                src="./assests/images/Iconly/Bulk/Bookmark.svg"
+                alt="Bookmark"
+              />
+              <a href="#"><span>Bookmarks</span></a>
+            </div>
+            <div class="Conferences-wrapper">
+              <img
+                src="./assests/images/Iconly/Bulk/Video.svg"
+                alt="Conferences"
+              />
+              <a href="#"><span>Conferences</span></a>
+            </div>
+          </div>
+
+          <div class="options-wrapper">
+            <p>OPTIONS</p>
+            <div class="settings-wrapper">
+              <img
+                src="./assests/images/Iconly/Bulk/Setting.svg"
+                alt="settings"
+              />
+              <a href="#"><span>Settings</span></a>
+            </div>
+            <div class="about-wrapper">
+              <img
+                src="./assests/images/Iconly/Bulk/Info Square.svg"
+                alt="about"
+              />
+              <a href="#"><span>About</span></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----Created a sepaerate div for light mode------ -->
+        <div class="light-mode">
+          <img src="./assests/images/Iconly/Light/Group.svg" alt="light-icon" />
+          <button class="lightmode" onclick="lightMode()">LIGHT MODE</button>
+        </div>
+      </div>
+
+      <!----------------------The main body ----------------------------------->
+      <div class="main-body">
+        <nav>
+          <div class="search-bar">
+            <form action="search">
+              <input type="text" placeholder="Search..." />
+              <button class="searchbtn" type="submit">
+                <img
+                  src="./assests/images/Iconly/Light/Search.svg"
+                  alt="search"
+                />
+              </button>
+            </form>
+          </div>
+          <div class="sub-2">
+            <div class="alight">
+              <a href="#"><span>Analytics</span></a>
+            </div>
+            <a href="#"><span>Earnings</span></a>
+            <a href="#"><span>Ads Experiments</span></a>
+          </div>
+          <div class="profile-wrapper">
+            <img
+              src="./assests/images/Iconly/Bulk/Notification.svg"
+              alt="notifications"
+            />
+            <img src="./assests/images/Iconly/Light/People.svg" alt="avatar" />
+            <div class="availability">
+              <img
+                src="./assests/images/Iconly/Light/Ellipse 3.svg"
+                alt="availability"
+              />
+            </div>
+            <div class="right-side">
+              <span>WELCOME</span>
+              <p>
+                Daniel Estasmos
+                <img
+                  src="./assests/images/Iconly/Light/Arrow - Down 2.svg"
+                  alt="arrow down"
+                />
+              </p>
+            </div>
+          </div>
+        </nav>
+
+        <!-- ----------------Dashboard contents---------------------- -->
+        <div class="main-content-wrapper">
+          <div class="dashboard-section">
+            <h1>Dashboard</h1>
+            <div class="dashboard-content-1">
+              <h2>Site Performance</h2>
+              <div class="site-perfomance-content">
+                <span>Today vs 7 days ago</span>
+                <div class="sub">
+                  <img
+                    src="./assests/images/Iconly/Bulk/Calendar.svg"
+                    alt="Calendar"
+                  />
+                  <span>June 03, 22 to July 02, 22</span>
+                </div>
+              </div>
+
+              <div class="card-wrapper">
+                <!-- -----------------Visitors card --------------------->
+                <div class="visitors-cards">
+                  <div class="visitors">
+                    <span>Visitors</span>
+                    <img
+                      src="./assests/images/Iconly/Light-outline/3 User.svg"
+                      alt="3 user"
+                    />
+                  </div>
+                  <p><strong>92,680</strong></p>
+                  <div class="stats">
+                    <div class="div-card-1">
+                      <span>+3,840 (26,80%)</span>
+                      <img
+                        src="./assests/images/Iconly/Light-outline/Swap.svg"
+                        alt="swap"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <!-- -----------------------Page reviews card---------------------- -->
+
+                <div class="page-views-cards">
+                  <div class="page-views">
+                    <span>Page views</span>
+                    <img
+                      src="./assests/images/Iconly/Light-outline/Show.svg"
+                      alt="show"
+                    />
+                  </div>
+                  <p><strong>580.5k</strong></p>
+                  <div class="stats">
+                    <div class="div-card-2">
+                      <span>+210K (16,20%)</span>
+                      <img
+                        src="./assests/images/Iconly/Light-outline/Swap2.svg"
+                        alt="swap"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <!-- -------bounce rate card----------- -->
+
+                <div class="bounce-rate-cards">
+                  <div class="bounce-rate">
+                    <span>Bounce-rate</span>
+                    <img
+                      src="./assests/images/Iconly/Light-outline/Chart.svg"
+                      alt="chart"
+                    />
+                  </div>
+                  <p><strong>15.43%</strong></p>
+                  <div class="stats">
+                    <div class="div-card-3">
+                      <span>-0.74 (0.74%)</span>
+                      <img
+                        src="./assests/images/Iconly/Light-outline/Swap3.svg"
+                        alt="swap"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <!-- -------------view all card ------------------->
+
+                <div class="view-all">
+                  <span><a href="#">View all</a></span>
+                  <img
+                    src="./assests/images/Iconly/Light/Arrow - Right 2.svg"
+                    alt="arrow"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!!-- ----------------------Users statistics-------------------- --!!>
+            <div class="dashboard-content-2">
+              <h2>User statistics</h2>
+              <div class="User-statistics-content">
+                <span>Today's statistics</span>
+                <div class="sub">
+                  <img
+                    src="./assests/images/Iconly/Bulk/Calendar.svg"
+                    alt="Calendar"
+                  />
+                  <span>June 03, 22 to July 02, 22</span>
+                </div>
+              </div>
+
+              <div class="card-wrapper">
+                <!-- -----------------Unique visitors card --------------------->
+                <div class="unique-visitors-cards">
+                  <div class="unique-visitors">
+                    <span>Unique visitors</span>
+                  </div>
+                  <div class="div-card-4">
+                    <img
+                      src="./assests/images/Iconly/Light/Chart 9.svg"
+                      alt="chart"
+                    />
+                    <div class="div-card-frame">
+                      <img
+                        src="./assests/images/Iconly/Light/Frame 13.svg"
+                        alt="frame"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <!-- -----------------------New Users card---------------------- -->
+
+                <div class="new-users-cards">
+                  <div class="new-users">
+                    <span>New Users</span>
+                    <img
+                      src="./assests/images/Iconly/Light/Add User.svg"
+                      alt="add user"
+                    />
+                  </div>
+                  <p><strong>17,805</strong></p>
+                  <div class="div-card-5">
+                    <span>+1,500 (4,17%)</span>
+                  </div>
+                </div>
+
+                <!-- -------online users card----------- -->
+
+                <div class="online-users-cards">
+                  <div class="online-users">
+                    <span>Online-users</span>
+                    <img
+                      src="./assests/images/Iconly/Light/Activity.svg"
+                      alt="activity"
+                    />
+                  </div>
+                  <p><strong>1,846</strong></p>
+                  <div class="div-card-5">
+                    <span>+530 (8,38%)</span>
+                  </div>
+                </div>
+
+                <!-- -------------view all card ------------------->
+
+                <div class="view-all">
+                  <span><a href="#">View all</a></span>
+                  <img
+                    src="./assests/images/Iconly/Light/Arrow - Right 2.svg"
+                    alt="arrow"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- -----------------table section----------- -->
+          <div class="dashboard-content-3">
+            <h2>Top referring sites</h2>
+            <p>Outbond links that come to your site</p>
+            <table>
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>Site title</th>
+                  <th>Link</th>
+                  <th>Total clicks</th>
+                  <th>Referrer type</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Stack Overflow</td>
+                  <td>
+                    <a href="https://stackoverflow.com/question/.."
+                      >https://stackoverflow.com/question/..</a
+                    >
+                  </td>
+                  <td>120</td>
+                  <td>nofollow, noopener</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Youtube</td>
+                  <td>
+                    <a href="https://www.youtube.com/?v=7wB1j.."
+                      >https://www.youtube.com/?v=7wB1j..</a
+                    >
+                  </td>
+                  <td>14,522</td>
+                  <td>nofollow</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Github</td>
+                  <td>
+                    <a href="https://github.com/andrew/tabler-x.."
+                      >https://github.com/andrew/tabler-x..</a
+                    >
+                  </td>
+                  <td>36</td>
+                  <td>nofollow</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Gosh William</td>
+                  <td>
+                    <a href="https://gwilliam.co/blog/capture-fro.."
+                      >https://gwilliam.co/blog/capture-fro..</a
+                    >
+                  </td>
+                  <td>580</td>
+                  <td>ugc</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Stack Overflow</td>
+                  <td>
+                    <a href="https://stackoverflow.com/question/.."
+                      >https://stackoverflow.com/question/..</a
+                    >
+                  </td>
+                  <td>112</td>
+                  <td>nofollow, noopener</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Stack Overflow</td>
+                  <td>
+                    <a href="https://stackoverflow.com/question/.."
+                      >https://stackoverflow.com/question/..</a
+                    >
+                  </td>
+                  <td>4</td>
+                  <td>nofollow, noopener</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Stack Overflow</td>
+                  <td>
+                    <a href="https://stackoverflow.com/question/.."
+                      >https://stackoverflow.com/question/..</a
+                    >
+                  </td>
+                  <td>51</td>
+                  <td>nofollow, noopener</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>Stack Overflow</td>
+                  <td>
+                    <a href="https://stackoverflow.com/question/.."
+                      >https://stackoverflow.com/question/..</a
+                    >
+                  </td>
+                  <td>68</td>
+                  <td>nofollow, noopener</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
